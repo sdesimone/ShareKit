@@ -28,6 +28,20 @@
 		456BADAB169107D1005B3077 /* SHKGooglePlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 456BADA9169107D1005B3077 /* SHKGooglePlus.h */; };
 		456BADAC169107D1005B3077 /* SHKGooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 456BADAA169107D1005B3077 /* SHKGooglePlus.m */; };
 		456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503EBC0169104470057294C /* libGoogle Plus.a */; };
+		49B53C09173D7CD2007E5B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		49B53C0E173D7CD2007E5B77 /* SDSShareKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49B53C0D173D7CD2007E5B77 /* SDSShareKit.h */; };
+		49B53C10173D7CD2007E5B77 /* SDSShareKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B53C0F173D7CD2007E5B77 /* SDSShareKit.m */; };
+		49B53C18173D7D5A007E5B77 /* libShareKitCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F9246156BA2A0009CB40A /* libShareKitCore.a */; };
+		49B53C19173D7D7C007E5B77 /* libEmail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECDB162F0779009D46E4 /* libEmail.a */; };
+		49B53C1A173D7D82007E5B77 /* libFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBED37162F0B65009D46E4 /* libFacebook.a */; };
+		49B53C1B173D7D91007E5B77 /* libLogout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECC9162F0719009D46E4 /* libLogout.a */; };
+		49B53C1C173D7D97007E5B77 /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A16F37E161340DD0019645D /* libOAuth.a */; };
+		49B53C1D173D7D9F007E5B77 /* libPrint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECBE162F063F009D46E4 /* libPrint.a */; };
+		49B53C1E173D7DAB007E5B77 /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFCD1160E123C0086B98A /* libReachability.a */; };
+		49B53C1F173D7DBF007E5B77 /* libTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1AFD3A160E14340086B98A /* libTwitter.a */; };
+		49B53C20173D7DC9007E5B77 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C09F316122ED90023EE48 /* libfacebook_ios_sdk.a */; };
+		49B53C37173D7E31007E5B77 /* libInstagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A16F3C216134A890019645D /* libInstagram.a */; };
+		49B53C38173D7E31007E5B77 /* libSave to Album.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBECED162F07DF009D46E4 /* libSave to Album.a */; };
 		7A0F91D5156BA2A0009CB40A /* SHKCustomFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B111DBE3B9004A1712 /* SHKCustomFormFieldCell.m */; };
 		7A0F91D6156BA2A0009CB40A /* SHKCustomFormControllerLargeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2BD53153431390042EB86 /* SHKCustomFormControllerLargeTextField.m */; };
 		7A0F91D9156BA2A0009CB40A /* SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A711DBE3B9004A1712 /* SHK.m */; };
@@ -412,6 +426,83 @@
 			remoteGlobalIDString = 4503EBB8169104470057294C;
 			remoteInfo = "Google Plus";
 		};
+		49B53C21173D7DEB007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0F91D1156BA2A0009CB40A;
+			remoteInfo = "Static Library Core";
+		};
+		49B53C23173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A16F36F161340DD0019645D;
+			remoteInfo = OAuth;
+		};
+		49B53C25173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1AFCC2160E123C0086B98A;
+			remoteInfo = Reachability;
+		};
+		49B53C27173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBECD3162F0779009D46E4;
+			remoteInfo = Email;
+		};
+		49B53C29173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBECC1162F0719009D46E4;
+			remoteInfo = Logout;
+		};
+		49B53C2B173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBECB6162F063F009D46E4;
+			remoteInfo = Print;
+		};
+		49B53C2D173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBECE5162F07DF009D46E4;
+			remoteInfo = "Save to Album";
+		};
+		49B53C2F173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBED25162F0B65009D46E4;
+			remoteInfo = Facebook;
+		};
+		49B53C31173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A16F3B316134A890019645D;
+			remoteInfo = Instagram;
+		};
+		49B53C33173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1AFD2B160E14340086B98A;
+			remoteInfo = Twitter;
+		};
+		49B53C35173D7E1A007E5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6C09EA16122ED90023EE48 /* facebook-ios-sdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "facebook-ios-sdk";
+		};
 		7A203D0D16EB7F5100421995 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -713,13 +804,6 @@
 			remoteGlobalIDString = 4F1C6E0E1027B3CE00B46459;
 			remoteInfo = GTLTouchStaticLib;
 		};
-		9424F439173139C00046720D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA6C09EA16122ED90023EE48 /* facebook-ios-sdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 85A44B9F16A8CE05007BE80E;
-			remoteInfo = FacebookSDKIntegrationTests;
-		};
 		949202C7172A9BC800DF9530 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -772,6 +856,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		49B53C06173D7CD2007E5B77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				49B53C0E173D7CD2007E5B77 /* SDSShareKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE334C1F16F3339300FF692B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -968,6 +1062,10 @@
 		456BAD1016910707005B3077 /* libGooglePlusUniversal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGooglePlusUniversal.a; sourceTree = "<group>"; };
 		456BADA9169107D1005B3077 /* SHKGooglePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHKGooglePlus.h; path = "Google Plus/SHKGooglePlus.h"; sourceTree = "<group>"; };
 		456BADAA169107D1005B3077 /* SHKGooglePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHKGooglePlus.m; path = "Google Plus/SHKGooglePlus.m"; sourceTree = "<group>"; };
+		49B53C08173D7CD2007E5B77 /* libSDSShareKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDSShareKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B53C0C173D7CD2007E5B77 /* SDSShareKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDSShareKit-Prefix.pch"; sourceTree = "<group>"; };
+		49B53C0D173D7CD2007E5B77 /* SDSShareKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSShareKit.h; sourceTree = "<group>"; };
+		49B53C0F173D7CD2007E5B77 /* SDSShareKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSShareKit.m; sourceTree = "<group>"; };
 		7A0F91CD156B9FF2009CB40A /* SHKDelicious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHKDelicious.h; path = Delicious/SHKDelicious.h; sourceTree = "<group>"; };
 		7A0F91CE156B9FF2009CB40A /* SHKDelicious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SHKDelicious.m; path = Delicious/SHKDelicious.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7A0F9246156BA2A0009CB40A /* libShareKitCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShareKitCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1258,7 +1356,7 @@
 		9424F3E7173139BF0046720D /* BufferSheetProfileSelectionGradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BufferSheetProfileSelectionGradient@2x.png"; sourceTree = "<group>"; };
 		9424F3E8173139BF0046720D /* BufferSheetShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BufferSheetShadow.png; sourceTree = "<group>"; };
 		9424F3E9173139BF0046720D /* BufferSheetShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BufferSheetShadow@2x.png"; sourceTree = "<group>"; };
-		9424F3EA173139BF0046720D /* BufferSheetViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = BufferSheetViewController.nib; sourceTree = "<group>"; };
+		9424F3EA173139BF0046720D /* BufferSheetViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = BufferSheetViewController.nib; sourceTree = "<group>"; };
 		9424F3EB173139BF0046720D /* Buffertoolbar-profiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buffertoolbar-profiles.png"; sourceTree = "<group>"; };
 		9424F3EC173139BF0046720D /* Buffertoolbar-profiles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Buffertoolbar-profiles@2x.png"; sourceTree = "<group>"; };
 		9424F3ED173139BF0046720D /* LoginBufferLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginBufferLogo.png; sourceTree = "<group>"; };
@@ -1455,6 +1553,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B53C05173D7CD2007E5B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B53C37173D7E31007E5B77 /* libInstagram.a in Frameworks */,
+				49B53C38173D7E31007E5B77 /* libSave to Album.a in Frameworks */,
+				49B53C20173D7DC9007E5B77 /* libfacebook_ios_sdk.a in Frameworks */,
+				49B53C1F173D7DBF007E5B77 /* libTwitter.a in Frameworks */,
+				49B53C1E173D7DAB007E5B77 /* libReachability.a in Frameworks */,
+				49B53C1D173D7D9F007E5B77 /* libPrint.a in Frameworks */,
+				49B53C1C173D7D97007E5B77 /* libOAuth.a in Frameworks */,
+				49B53C1B173D7D91007E5B77 /* libLogout.a in Frameworks */,
+				49B53C1A173D7D82007E5B77 /* libFacebook.a in Frameworks */,
+				49B53C19173D7D7C007E5B77 /* libEmail.a in Frameworks */,
+				49B53C18173D7D5A007E5B77 /* libShareKitCore.a in Frameworks */,
+				49B53C09173D7CD2007E5B77 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1848,6 +1965,7 @@
 				7AECF322171D5194000722FA /* libYouTube.a */,
 				7AECF32C171D51C3000722FA /* libYouTube SDK.a */,
 				949BCB8C172A993000D706D4 /* libBuffer.a */,
+				49B53C08173D7CD2007E5B77 /* libSDSShareKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1871,6 +1989,7 @@
 				7A9A254B17256A65006B97C0 /* Resources - Demo */,
 				7AB536111552E26800171BCE /* ShareKitLibraryResources */,
 				7A288261155409BC007DC379 /* ShareKitLibrary */,
+				49B53C0A173D7CD2007E5B77 /* SDSShareKit */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -2476,6 +2595,24 @@
 			path = "Submodules/googleplus-ios-sdk/lib";
 			sourceTree = SOURCE_ROOT;
 		};
+		49B53C0A173D7CD2007E5B77 /* SDSShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				49B53C0D173D7CD2007E5B77 /* SDSShareKit.h */,
+				49B53C0F173D7CD2007E5B77 /* SDSShareKit.m */,
+				49B53C0B173D7CD2007E5B77 /* Supporting Files */,
+			);
+			path = SDSShareKit;
+			sourceTree = "<group>";
+		};
+		49B53C0B173D7CD2007E5B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B53C0C173D7CD2007E5B77 /* SDSShareKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7A0F91CB156B9FCE009CB40A /* Delicious */ = {
 			isa = PBXGroup;
 			children = (
@@ -2891,7 +3028,6 @@
 			children = (
 				AA6C09F316122ED90023EE48 /* libfacebook_ios_sdk.a */,
 				AA7585701624AABF001EFCBE /* FacebookSDKTests.octest */,
-				9424F43A173139C00046720D /* FacebookSDKIntegrationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3503,6 +3639,34 @@
 			name = "Google Plus";
 			productName = ShareKitLibrary;
 			productReference = 4503EBC0169104470057294C /* libGoogle Plus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49B53C07173D7CD2007E5B77 /* SDSShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B53C17173D7CD2007E5B77 /* Build configuration list for PBXNativeTarget "SDSShareKit" */;
+			buildPhases = (
+				49B53C04173D7CD2007E5B77 /* Sources */,
+				49B53C05173D7CD2007E5B77 /* Frameworks */,
+				49B53C06173D7CD2007E5B77 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B53C24173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C26173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C28173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C2A173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C2C173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C2E173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C30173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C32173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C34173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C36173D7E1A007E5B77 /* PBXTargetDependency */,
+				49B53C22173D7DEB007E5B77 /* PBXTargetDependency */,
+			);
+			name = SDSShareKit;
+			productName = SDSShareKit;
+			productReference = 49B53C08173D7CD2007E5B77 /* libSDSShareKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		7A0F91D1156BA2A0009CB40A /* Static Library Core */ = {
@@ -4287,6 +4451,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Demo App */,
+				49B53C07173D7CD2007E5B77 /* SDSShareKit */,
 				7AB5342D1552AADD00171BCE /* Static Library */,
 				7AB5360E1552E26800171BCE /* Resource Bundle */,
 				7A0F91D1156BA2A0009CB40A /* Static Library Core */,
@@ -4361,13 +4526,6 @@
 			fileType = "compiled.mach-o.executable";
 			path = DevelopmentTestTool;
 			remoteRef = 7AECF2F1171D4679000722FA /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		9424F43A173139C00046720D /* FacebookSDKIntegrationTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = FacebookSDKIntegrationTests.octest;
-			remoteRef = 9424F439173139C00046720D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		AA6C09F316122ED90023EE48 /* libfacebook_ios_sdk.a */ = {
@@ -4508,6 +4666,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				456BADAC169107D1005B3077 /* SHKGooglePlus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B53C04173D7CD2007E5B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B53C10173D7CD2007E5B77 /* SDSShareKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4969,6 +5135,61 @@
 			target = 4503EBB8169104470057294C /* Google Plus */;
 			targetProxy = 456BADAE16910966005B3077 /* PBXContainerItemProxy */;
 		};
+		49B53C22173D7DEB007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0F91D1156BA2A0009CB40A /* Static Library Core */;
+			targetProxy = 49B53C21173D7DEB007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C24173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A16F36F161340DD0019645D /* OAuth */;
+			targetProxy = 49B53C23173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C26173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1AFCC2160E123C0086B98A /* Reachability */;
+			targetProxy = 49B53C25173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C28173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBECD3162F0779009D46E4 /* Email */;
+			targetProxy = 49B53C27173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C2A173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBECC1162F0719009D46E4 /* Logout */;
+			targetProxy = 49B53C29173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C2C173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBECB6162F063F009D46E4 /* Print */;
+			targetProxy = 49B53C2B173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C2E173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBECE5162F07DF009D46E4 /* Save to Album */;
+			targetProxy = 49B53C2D173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C30173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBED25162F0B65009D46E4 /* Facebook */;
+			targetProxy = 49B53C2F173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C32173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A16F3B316134A890019645D /* Instagram */;
+			targetProxy = 49B53C31173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C34173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1AFD2B160E14340086B98A /* Twitter */;
+			targetProxy = 49B53C33173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
+		49B53C36173D7E1A007E5B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "facebook-ios-sdk";
+			targetProxy = 49B53C35173D7E1A007E5B77 /* PBXContainerItemProxy */;
+		};
 		7A203D0E16EB7F5100421995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7A203D0216EB7DA200421995 /* Hatena */;
@@ -5301,6 +5522,63 @@
 				);
 				PRODUCT_NAME = "Google Plus";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		49B53C11173D7CD2007E5B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/SDSShareKit.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDSShareKit/SDSShareKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49B53C12173D7CD2007E5B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/SDSShareKit.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDSShareKit/SDSShareKit-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -7365,6 +7643,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		49B53C17173D7CD2007E5B77 /* Build configuration list for PBXNativeTarget "SDSShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B53C11173D7CD2007E5B77 /* Debug */,
+				49B53C12173D7CD2007E5B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		7A0F9243156BA2A0009CB40A /* Build configuration list for PBXNativeTarget "Static Library Core" */ = {
 			isa = XCConfigurationList;
